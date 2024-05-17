@@ -1,7 +1,7 @@
 
 const mongoose =require("mongoose")
 
-mongoose.connect( "mongodb://localhost:27017/datashop/resturants/resturants")
+mongoose.connect( "mongodb://localhost:27017")
 .then(()=>{
     console.log("connection open")
 }).catch(err=>{
